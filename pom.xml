@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.wantdo</groupId>
+    <artifactId>springside-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>examples</module>
+        <module>modules</module>
+    </modules>
+
+    <name>Springside :: Project</name>
+    <packaging>pom</packaging>
+
+    <description>SpringSide is a Spring Framework based JavaEE application reference architecture.</description>
+    <url>https://github.com/luanx/springside5-project</url>
+    <inceptionYear>2012-2017</inceptionYear>
+    <organization>
+        <name>wantdo</name>
+        <url>https://www.wantdo.com</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <id>luanx</id>
+            <name>luan xin</name>
+            <email>luanx@wantdo.com</email>
+            <roles>
+                <role>Project leader</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <issueManagement>
+        <system>Github</system>
+        <url>https://github.com/luanx/springside5-project/issues</url>
+    </issueManagement>
+
+    <scm>
+        <url>https://github.com/luanx/springside5-project</url>
+        <connection>scm:git:git://github.com/luanx/springside5-project.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:luanx/springside5-project.git</developerConnection>
+    </scm>
+
+
+</project>
